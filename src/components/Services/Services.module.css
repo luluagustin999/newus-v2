@@ -1,0 +1,56 @@
+.contain{
+    margin-top: 83px;
+    margin-bottom: 174px;
+}
+.cont{
+    
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.heading{
+    font-size: 37px;
+    color: #000000;
+    font-weight: bold;
+}
+.subHeading{
+    font-size: 15px;
+    color: #000000;
+    width: 645px;
+}
+
+@media screen and (max-width: 1200px) {
+    .cont{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .subHeading{
+        font-size: 25px;
+        width: auto;
+    }
+    .heading{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .subHeading{
+        font-size: 20px;
+    }
+    .heading{
+        font-size: 17px;
+    }
+    .contain{
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .cont{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
