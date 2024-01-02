@@ -1,8 +1,9 @@
 import React from "react";
 import SubBanner from '../../components/SubBanner';
 import Services from '../../components/Services';
+import Real from "../../components/Real";
 import Footer from "../../components/Footer";
-import bg from '../../assets/banner.png';
+import bg from '../../assets/banner.svg';
 
 const ServicesHome = () => {
 
@@ -10,12 +11,17 @@ const ServicesHome = () => {
     <>
       {/* Banner Section  */}
       <section>
-        <SubBanner heading='Service' img={bg}/>
+        <SubBanner heading='SERVICE' img={bg}/>
       </section>
 
       {/* Services Section  */}
       <section>
         <Services/>
+      </section>
+
+      {/* Real Section  */}
+      <section>
+        <Real />
       </section>
 
       {/* Footer Section  */}

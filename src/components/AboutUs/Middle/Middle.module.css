@@ -1,39 +1,39 @@
 .contain{
-    padding-top: 146px;
-    padding-bottom: 145px;
+    padding-top: -10px;
+    padding-bottom: 70px;
 }
 .mainHead{
-    font-family: 'Poppins';
-    font-size: 50px;
+    font-family: 'Inter';
+    font-size: 28px;
     font-weight: bold;
-    color: #222a41;
+    text-align: left;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 .mainContent{
-    font-family: 'Poppins';
-    font-size: 20px;
-    color: #989e9d;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
     padding-bottom: 110px;
+    margin-bottom: -90px;
 }
 .box{
-    background-color: rgba(79, 76, 134, 0.1);
-    border: solid 2px rgba(220, 216, 226, 0.5);
-    border-radius: 10px;
-    padding: 40px 27px 55.4px 28px;
+    
+    text-align: left;
+
+    /* background-color: rgba(79, 76, 134, 0.1); */
+    /* padding: 40px 27px 55.4px 28px; */
 }
 .head{
-    font-family: 'Poppins';
+    text-align: left;
+    font-family: 'Inter';
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 500;
     color: #222a41;
     margin-bottom: 23px;
     margin-top: 33px;
-}
-.content{
-    font-family: 'Poppins';
-    font-size: 18px;
-    color: #222a41;
-    opacity: .6;
+    margin-right: 30px;
 }
 
 @media screen and (max-width: 992px) {

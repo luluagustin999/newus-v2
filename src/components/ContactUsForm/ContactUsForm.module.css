@@ -3,26 +3,33 @@
     margin-bottom: 68px;
 }
 .heading{
-    font-family: 'Poppins';
-    font-size: 40px;
-    color: #222a41;
-    font-weight: bold;
+    font-family: 'Inter';
+    font-size: 38px !important;
+    color: #333333;
+    font-weight: 700;
     /* margin-bottom: 76px; */
     width: 400px;
 }
 .head{
-    font-family: 'Poppins';
-    font-size: 20px;
-    color: #222a41;
-    font-weight: bold;
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
     margin-top: 76px;
 }
 .content{
-    font-family: 'Poppins';
+    font-family: 'Inter';
+    font-weight: 700;
+    text-align: left;
     font-size: 20px;
-    color: #232323;
-    opacity: 0.6;
-    margin-bottom: 5px;
+    color: #333333;
+}
+.text{
+    font-family: 'Inter';
+    font-weight: 400;
+    text-align: left;
+    font-size: 14px;
+    color: #333333;
 }
 .email{
     font-family: 'Poppins';

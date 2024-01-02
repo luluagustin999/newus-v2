@@ -14,7 +14,7 @@ const Services = () => {
             <div className={`row ${styles.cont}`}>
                 {
                     data && data.map(x=>(
-                        <div key={x.id} className="col-lg-4 col-md-6">
+                        <div key={x.id} className="col-lg-6 col-md-6">
                             <ServiceHome id={x.id} heading={x.heading} content={x.content} to={x.to} icon={x.icon}/>
                         </div>
                     ))

@@ -1,8 +1,10 @@
 .contain{
+    padding-top: -20px;
     padding-bottom: 130px;
 }
 .row{
-    margin-top: 130px !important;
+    padding-top: -20px;
+    margin-top: 40px !important;
 }
 .head{
     font-family: 'Poppins';
@@ -22,9 +24,10 @@
     margin-left: 150px;
 }
 .img{
+    margin-top: 10px;
     width: 100%;
     height: auto;
-    margin-left: -150px;
+    margin-left: 250px;
 }
 .head1{
     font-family: 'Poppins';
@@ -42,10 +45,20 @@
     text-align: left;
     margin-right: 100px;
 }
-.img1{
-    width: 100%;
-    height: auto;
-    margin-left: 90px;
+.img{
+    padding-top: 20px;
+    width: 900px;
+    margin-left: 0px;
+}
+.about{
+    text-align: left;
+    font-size: 24px;
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+.contn{
+    text-align: left;
 }
 
 @media screen and (max-width: 992px) {

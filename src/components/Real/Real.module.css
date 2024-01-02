@@ -1,39 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;900;600&display=swap');
+
 .img{
-    width: 100%;
+    width: 50%;
+    margin-left: 100px;
 }
 .heading{
     font-size: 30px;
-    font-weight: 500;
-    color: #ff4c0a;
-    font-family: 'Poppins';
+    color: #ffffff;
+    font-family: 'Inter';
     text-align: left;
-    font-weight: 500;
+    font-weight: 600;
 }
-.subHeading{
-    font-size: 34px;
-    font-family: 'Poppins';
-    font-weight: bold;
-    text-align: left;
-    width: 400px;
-    margin-bottom: 45px;
-}
+
 .content{
     font-size: 15px;
-    font-family: 'Poppins';
+    font-family: 'Inter' !important;
     text-align: left;
-    color: #6d7783;
-    width: 80%;
+    color: #ffffff;
+    width: 65%;
     text-align: justify;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .btn{
-    width: 272px;
-    height: 64px;
+    width: 165px;
+    height: 52px;
     font-size: 14px;
+    background-color: #1E4D98 !important;
+    border-radius: 10px !important;
+    border-color: #ffffff !important;
 }
 .text{
     margin-left: 50px;
     margin-top: 50px;
+}
+.to{
+    margin-left: 25px;
+    cursor: pointer;
 }
 
 @media screen and (max-width:1200px) {

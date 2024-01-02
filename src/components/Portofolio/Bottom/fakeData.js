@@ -1,18 +1,50 @@
-import img1 from '../../../assets/aboutUs/bottom1.png';
-import img2 from '../../../assets/aboutUs/bottom2.png'
+import img1 from '/Users/User/miritus/src/assets/blog/img1.png';
+import img2 from '/Users/User/miritus/src/assets/blog/img1.png';
+import img3 from '/Users/User/miritus/src/assets/blog/img1.png';
+import img4 from '/Users/User/miritus/src/assets/blog/img1.png';
 
 const fakeData = [
     {
         id: 1,
-        heading: 'We Do with Creativity',
+        designation: 'Marketing, SEO',
+        title: 'Dicta Sunt Explicabo',
         img: img1,
-        content: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita'
+        category: 'technology'
     },
     {
         id: 2,
-        heading: 'We Do with Creativity',
+        designation: 'Marketing, SEO',
+        title: 'Dicta Sunt Explicabo',
         img: img2,
-        content: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita'
+        category: 'coding'
     },
+    {
+        id: 3,
+        designation: 'Marketing, SEO',
+        title: 'Dicta Sunt Explicabo',
+        img: img3,
+        category: 'seo'
+    },
+    {
+        id: 4,
+        designation: 'Marketing, SEO',
+        title: 'Dicta Sunt Explicabo',
+        img: img4,
+        category: 'music'
+    },
+    {
+        id: 5,
+        designation: 'Marketing, SEO',
+        title: 'Dicta Sunt Explicabo',
+        img: img1,
+        category: 'technology'
+    },
+    {
+        id: 6,
+        designation: 'Marketing, SEO',
+        title: 'Dicta Sunt Explicabo',
+        img: img2,
+        category: 'coding'
+    }
 ]
 export default fakeData;

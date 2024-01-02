@@ -1,8 +1,8 @@
 import React from "react";
 import styles from './Middle.module.css';
-import logo1 from '../../../assets/aboutUs/middle1.png';
-import logo2 from '../../../assets/aboutUs/middle2.png';
-import logo3 from '../../../assets/aboutUs/middle3.png';
+import logo1 from '../../../assets/aboutUs/middle1.svg';
+import logo2 from '../../../assets/aboutUs/middle2.svg';
+import logo3 from '../../../assets/aboutUs/middle3.svg';
 
 const Middle = () =>{
     return(

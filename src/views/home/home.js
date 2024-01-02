@@ -14,7 +14,7 @@ const Home = () => {
     <>
       {/* Banner Section  */}
       <section>
-        <Banner />
+        <Banner subHeading='Home /About Us' />
       </section>
 
       {/* About Us Section */}
@@ -37,14 +37,14 @@ const Home = () => {
         <CaseStudy />
       </section>
 
-      {/* Real Section  */}
-      <section>
-        <Real />
-      </section>
-
       {/* Testimonial Section  */}
       <section>
         <Testimonial />
+      </section>
+
+      {/* Real Section  */}
+      <section>
+        <Real />
       </section>
 
       {/* Footer Section  */}

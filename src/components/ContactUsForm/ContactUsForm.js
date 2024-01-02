@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from './ContactUsForm.module.css';
+import contact from '/Users/User/miritus/src/assets/contactUs.svg';
 // import {Map, GoogleApiWrapper} from 'google-maps-react';
 
 const ContactUsForm = () =>{
@@ -18,32 +19,13 @@ const ContactUsForm = () =>{
     return(
         <>
             <div className={`container ${styles.contain} overflow-hidden`}>
-                <p data-aos='fade-up' className={`${styles.heading} mx-auto`}>We&apos;d Love to Hear From You</p>
-
+                <p className={styles.heading}>Get In Touch</p>
+                <p className={styles.head}>Do you really think graphic arts supply houses were hiring classics scholars</p>
                 <div className="row">
-                    <div className="col-md-4" data-aos='fade-right'>
-                        <p className={styles.head}>Address</p>
-                        <p className={styles.content}>1201 New Zealand Metropolis 3452</p>
-                    </div>
-
-                    <div className="col-md-4" data-aos='fade-up' data-aos-offset='100'>
-                        <p className={styles.head}>Contact</p>
-                        <p className={styles.content}>Mobile 	: +00 123 456 78</p> 
-                        <p className={styles.content}>Phone 	: +00 123 678 90</p>
-                        <p className={styles.content}>Email: contact@gmail.com</p>
-                    </div>
-
-                    <div className="col-md-4" data-aos='fade-left' data-aos-offset='70'>
-                        <p className={styles.head}>Address</p>
-                        <p className={styles.content}>Monday - Friday: 09:00 - 20:00</p>
-                        <p className={styles.content}>Sunday &amp; Saturday: 10:30 - 22:00</p>
-                    </div>
+                <div className={`col-md-6 ${styles.imgContain}`}>
+                    <img src={contact} alt="" className={styles.img1}/>
                 </div>
-
-                <p className={styles.email} data-aos='fade-up'>You can email us</p>
-
-                <div className="row">
-                    <div className="col-md-6" data-aos='fade-right' style={{textAlign: 'left'}}>
+                    <div className="col-md-6" style={{textAlign: 'left'}}>
                         <label className={styles.label}>Name</label><br/>
                         <input name="name" value={formContent.name} onChange={handleChange} className={styles.input} type="text" />
 
@@ -53,13 +35,19 @@ const ContactUsForm = () =>{
                         <label className={styles.label}>Subject</label><br/>
                         <input name="subject" value={formContent.subject} onChange={handleChange} className={styles.input} type="text" />
                     </div>
-
-                    <div className="col-md-6" data-aos='fade-left' style={{textAlign: 'left'}}>
+                    <div className="col-md-6" style={{textAlign: 'left'}}>
                         <label className={styles.label}>Message</label><br/>
                         <textarea name="message" value={formContent.message} onChange={handleChange} className={`${styles.input} ${styles.msg}`} type="text"/>
                         <div style={{textAlign:'right'}}>
                             <button className={`btn custom_btn ${styles.btn}`}>SEND</button>
                         </div>
+                    </div>
+                    <div className="row">
+                    <div className={`col-md-6 ${styles.content}`}>
+                            <p className="">Bandar Lampung</p>
+                            <p className={styles.text}>Jl. In aja dulu, No 212 Lintang Barat</p>
+                            <p className={styles.text}>newustech@gmail.com</p>
+                    </div>
                     </div>
                 </div>
             </div>

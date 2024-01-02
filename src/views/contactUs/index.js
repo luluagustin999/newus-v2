@@ -1,7 +1,7 @@
 import React from "react";
-import SubBanner from '../../components/SubBanner';
 import ContactUsForm from "../../components/ContactUsForm";
 import Footer from "../../components/Footer";
+import BannerContactUs from "../../components/ContactUsForm/BannerContactUs";
 import bg from '../../assets/subBanner.jpg';
 
 const ServicesHome = () => {
@@ -9,7 +9,7 @@ const ServicesHome = () => {
     <>
       {/* Banner Section  */}
       <section>
-        <SubBanner heading='Contact Us' img={bg}/>
+        <BannerContactUs heading='Contact Us' img={bg}/>
       </section>
 
       {/* Form Section  */}

@@ -1,6 +1,7 @@
 import React from "react";
-import bg from '../../assets/aboutUs/banner.png';
+import bg from '../../assets/banner.svg';
 import SubBanner from '../../components/SubBanner';
+import Real from "../../components/Real";
 import Footer from "../../components/Footer";
 import Top from "../../components/Blog/Top";
 import Middle from "../../components/Blog/Middle";
@@ -11,7 +12,7 @@ const blog = () => {
     <>
       {/* Banner Section  */}
       <section>
-        <SubBanner heading='Blog'img={bg}/>
+        <SubBanner heading='BLOG'img={bg}/>
       </section>
 
       {/* Top Section  */}
@@ -27,6 +28,11 @@ const blog = () => {
       {/* Bottom Section  */}
       <section>
         <Bottom />
+      </section>
+
+      {/* Real Section  */}
+      <section>
+        <Real />
       </section>
 
       {/* Footer Section  */}

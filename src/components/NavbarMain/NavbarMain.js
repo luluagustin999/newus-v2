@@ -58,7 +58,7 @@ const NavbarMain = () => {
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav style={{marginLeft:'auto'}} >
+            <Nav style={{marginLeft:'auto' }} >
               <NavLink
                 to="/"
                 className={`${styles.nav_text} nav-link ${activeNav[0] ? styles.active : ""}`}

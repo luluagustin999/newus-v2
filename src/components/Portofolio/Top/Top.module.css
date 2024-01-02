@@ -1,68 +1,22 @@
-.heading{
-    font-family: 'Poppins';
-    font-size: 30px;
-    font-weight: 500;
-    color: #ff4c0a;
-    margin-top: 77px;
-    margin-bottom: 0px;
-}
 .subHeading{
-    font-family: 'Poppins';
+    font-family: 'Inter' !important;
     font-size: 34px;
-    font-weight: bold;
+    font-weight: 600;
     color: #2e2d26;
     margin-top: 36px;
 }
 .content{
-    font-family: 'Poppins';
-    font-size: 14px;
-    color: #989e9d;
+    font-family: 'Asap' !important;
+    font-size: 16px;
+    color: #0A0909;
     margin-top: 14px;
-    width: 700px;
+    width: 595px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 70px;
 }
 .contain{
     padding-left: 100px;
-}
-.about{
-    font-family: 'Poppins';
-    font-size: 50px;
-    font-weight: bold;
-    color: #0f0a18;
-    text-align: left;
-    margin-bottom: 4px;
-    margin-top: 119px;
-}
-
-.imgContain{
-    margin-left: -90px;
-}
-.img1{
-    width: 100%;
-    height: auto;
-}
-.img2{
-    text-align: left;
-    padding-left: 100px;
-    margin-top: 14px;
-    width: 100%;
-    height: auto;
-    margin-bottom: 82px;
-}
-.creativity{
-    font-family: 'Poppins';
-    font-size: 30px;
-    font-weight: bold;
-    color: #4f4c86;
-    text-align: left;
-}
-.contn{
-    font-family: 'Poppins';
-    font-size: 14px;
-    color: #989e9d;
-    text-align: left;
 }
 
 @media screen and (max-width: 1200px) {

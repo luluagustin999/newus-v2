@@ -1,34 +1,31 @@
 import React from 'react';
+import img1 from '../../../assets/aboutUs/bottom1.png';
+import img2 from '../../../assets/aboutUs/bottom2.svg';
+import img3 from '../../../assets/aboutUs/bottom3.svg'
 import styles from './Bottom.module.css';
-import fakeData from './fakeData';
+
 
 const Bottom = () =>{
     return(
         <>
             <div className={`container ${styles.contain} overflow-hidden`}>
                 {
-                    fakeData.map((x, idx)=>(
-                        idx%2 === 0?
-                        <div key={x.id} className={`row ${styles.row} flex-column-reverse flex-md-row`}>
-                            <div data-aos='slide-right' data-aos-offset="220" className='col-md-6'>
-                                <p className={styles.head}>{x.heading}</p>
-                                <p className={styles.content}>{x.content}</p>
-                            </div>
-                            <div data-aos='slide-left' className='col-md-6'>
-                                <img src={x.img} alt='' className={styles.img}/>
+                        <div className={`row ${styles.row} flex-column-reverse flex-md-row`}>
+                            <div className='col-md-6'>
+                            <p className={styles.about}>Our Happy Client</p>
+                            <p className={styles.contn}>Lörem ipsum astrobel sar direlig. Kronde est konfoni med kelig Terabel pov astrobel sar direlig.Lörem ipsum astrobel sar direlig.</p>
+                                <img src={img1} alt='' className={styles.img}/>
+                                <img src={img2} alt='' className={styles.img}/>
+                                <img src={img3} alt='' className={styles.img}/>
                             </div>
                         </div>
-                        :
-                        <div key={x.id} className={`row ${styles.row}`}>
-                            <div data-aos='slide-right' data-aos-offset="220" className='col-md-6'>
-                                <img src={x.img} alt='' className={styles.img1}/>
-                            </div>
-                            <div data-aos='slide-left' className='col-md-6'>
-                                <p className={styles.head1}>{x.heading}</p>
-                                <p className={styles.content1}>{x.content}</p>
-                            </div>
-                        </div>
-                    ))
+                        
+                        // :
+                        // <div key={x.id} className={`row ${styles.image}`}>
+                        //     <div  className='col-md-6'>
+                        //         <img src={x.img} alt='' className={styles.img}/>
+                        //     </div>
+                        // </div>
                 }
             </div>
         </>

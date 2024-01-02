@@ -1,15 +1,14 @@
-.logo{
-    font-size: 40px;
-    font-family: 'Montserrat';
-    font-weight: bold;
-    color: #ff4c0a;
-    text-align: left;
+.imgbox {
+    height: 420px;
+    background: url('../../assets/footer.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 .text{
-    color: #fefefe;
+    color: #F2F2F2;
     text-align: left;
-    font-size: 16px;
+    font-family: "Inter" !important;
+    font-size: 14px;
     margin-bottom: 0px;
 }
 .social_logo{
@@ -17,15 +16,12 @@
     margin-top: 25px;
 }
 .img{
-    margin-right: 14px;
-    margin-bottom: 40px;
-    cursor: pointer;
-}
-.img:hover{
-    transform: scale(1.1);
+    margin-top: 230px;
+    margin-right: 33px;
+    margin-left: -20px;
 }
 .head{
-    color: #fefefe;
+    color: #F2F2F2;
     font-size: 22px;
     text-align: left;
     margin-top: 15px;
@@ -34,11 +30,11 @@
     
 }
 .bottom{
-    color: #fefefe;
-    font-size: 16px;
+    color: #F2F2F2;
+    font-family: "Inter";
+    font-size: 14px;
     margin-bottom: 0px;
-    height: 49px;
-    padding-top: 12px;
+    padding-top: 10px;
 }
 
 @media screen and (max-width: 992px){
