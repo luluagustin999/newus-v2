@@ -7,6 +7,7 @@ import Real from "../../components/Real";
 import Footer from "../../components/Footer";
 import AboutUsHome from "../../components/AboutUsHome";
 import Testimonial from "../../components/Testimonial";
+import BlogHome from "../../components/BlogHome";
 
 
 const Home = () => {
@@ -32,9 +33,14 @@ const Home = () => {
         <ServicesHome />
       </section>
 
-      {/* Case Study Section  */}
+      {/* Case Study Section 
       <section>
         <CaseStudy />
+      </section> */}
+
+      {/* Blog Home Section  */}
+      <section>
+        <BlogHome />
       </section>
 
       {/* Testimonial Section  */}

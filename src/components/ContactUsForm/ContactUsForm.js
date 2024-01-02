@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from './ContactUsForm.module.css';
-import contact from '/Users/User/miritus/src/assets/contactUs.svg';
+import contact from '/Users/User/newus-v2/src/assets/contactUs.svg';
 // import {Map, GoogleApiWrapper} from 'google-maps-react';
 
 const ContactUsForm = () =>{

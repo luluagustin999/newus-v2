@@ -1,7 +1,7 @@
-import img1 from '/Users/User/miritus/src/assets/blog/img1.png';
-import img2 from '/Users/User/miritus/src/assets/blog/img1.png';
-import img3 from '/Users/User/miritus/src/assets/blog/img1.png';
-import img4 from '/Users/User/miritus/src/assets/blog/img1.png';
+import img1 from '/Users/User/newus-v2/src/assets/blog/img1.png';
+import img2 from '/Users/User/newus-v2/src/assets/blog/img1.png';
+import img3 from '/Users/User/newus-v2/src/assets/blog/img1.png';
+import img4 from '/Users/User/newus-v2/src/assets/blog/img1.png';
 
 const fakeData = [
     {
