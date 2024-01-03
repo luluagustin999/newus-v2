@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import './Top.module.css'
+import styles from './Top.module.css'
 
 const Top = ({ onSearch }) => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -14,16 +14,18 @@ const Top = ({ onSearch }) => {
     };
 
     return (
-        <form onSubmit={handleSubmit} >
-          <input
+      <div className={`container overflow-hidden`} style={{backgroundColor:"#FFFFFF", borderRadius:"10px", marginTop:"-80px", width:"501px"}}>
+            <form onSubmit={handleSubmit}>
+            <input
+            className={styles.content}
             type="text"
             placeholder="Search here .."
-            style={{backgroundColor:"#FFFFFF", borderRadius:"10px", marginTop:"-80px", width:"500px"}}
             value={searchTerm}
             onChange={handleChange}
           />
           {/* <button type="submit">Cari</button> */}
         </form>
+        </div>
       );
 };
 

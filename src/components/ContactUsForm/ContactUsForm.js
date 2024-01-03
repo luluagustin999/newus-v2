@@ -19,37 +19,41 @@ const ContactUsForm = () =>{
     return(
         <>
             <div className={`container ${styles.contain} overflow-hidden`}>
-                <p className={styles.heading}>Get In Touch</p>
-                <p className={styles.head}>Do you really think graphic arts supply houses were hiring classics scholars</p>
                 <div className="row">
                 <div className={`col-md-6 ${styles.imgContain}`}>
                     <img src={contact} alt="" className={styles.img1}/>
                 </div>
-                    <div className="col-md-6" style={{textAlign: 'left'}}>
-                        <label className={styles.label}>Name</label><br/>
-                        <input name="name" value={formContent.name} onChange={handleChange} className={styles.input} type="text" />
-
-                        <label className={styles.label}>Email</label><br/>
-                        <input name="email" value={formContent.email} onChange={handleChange} className={styles.input} type="email" />
-
-                        <label className={styles.label}>Subject</label><br/>
-                        <input name="subject" value={formContent.subject} onChange={handleChange} className={styles.input} type="text" />
+                <div className="col-md-6" style={{textAlign: 'left'}}>
+                    <p className={styles.heading}>Get In Touch</p>
+                    <p className={styles.head}>Do you really think graphic arts supply houses were hiring classics scholars</p>
+                <div className="row">
+                    <div className="col">
+                    <label className={styles.label}>First Name</label><br/>
+                        <input name="name" value={formContent.firstname} onChange={handleChange} className={styles.input} type="text" />
                     </div>
-                    <div className="col-md-6" style={{textAlign: 'left'}}>
-                        <label className={styles.label}>Message</label><br/>
-                        <textarea name="message" value={formContent.message} onChange={handleChange} className={`${styles.input} ${styles.msg}`} type="text"/>
-                        <div style={{textAlign:'right'}}>
-                            <button className={`btn custom_btn ${styles.btn}`}>SEND</button>
-                        </div>
-                    </div>
-                    <div className="row">
-                    <div className={`col-md-6 ${styles.content}`}>
-                            <p className="">Bandar Lampung</p>
-                            <p className={styles.text}>Jl. In aja dulu, No 212 Lintang Barat</p>
-                            <p className={styles.text}>newustech@gmail.com</p>
-                    </div>
+                    <div className="col">
+                    <label className={styles.label}>Last Name</label><br/>
+                        <input name="name" value={formContent.lastname} onChange={handleChange} className={styles.input} type="text" />
                     </div>
                 </div>
+                <div className="row">
+                    <div className="col">
+                    <label className={styles.label}>Email</label><br/>
+                        <input name="name" value={formContent.emaiil} onChange={handleChange} className={styles.input} type="text" />
+                    </div>
+                    <div className="col">
+                    <label className={styles.label}>Phone Number</label><br/>
+                        <input name="name" value={formContent.phone} onChange={handleChange} className={styles.input} type="text" />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                    <label className={styles.label}>Message</label><br/>
+                        <input name="name" value={formContent.message} onChange={handleChange} className={styles.input} style={{height : "114px", width:"550px"}} type="text" />
+                    </div>
+                </div>
+                </div>
+            </div>
             </div>
 
             {/* <div>

@@ -1,22 +1,41 @@
-style.css
-form {
+
+.form {
     display: flex;
     margin-bottom: 20px;
     margin-left: 500px;
     background-color: #FFFFFF;
   }
   
-  input {
-    padding: 8px;
+.input {
     margin-right: 8px;
     background-color: #FFFFFF;
   }
+
+  .subHeading{
+    font-family: 'Inter' !important;
+    font-size: 34px;
+    font-weight: 600;
+    color: #2e2d26;
+    margin-top: 36px;
+}
+.content{
+    border: none;
+    outline: none;
+    margin-top: 14px;
+    width: 595px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+.contain{
+    padding-left: 100px;
+}
   
-  button {
+/* .button {
     padding: 8px;
     background-color: #4caf50;
     color: #fff;
     border: none;
     cursor: pointer;
   }
-  
+   */
