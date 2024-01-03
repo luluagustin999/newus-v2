@@ -13,24 +13,24 @@ const Middle = () =>{
                     <div className="col-md-4">
                         <div className={styles.box}>
                             <img src={logo1} alt=""/>
-                            <p className={styles.head}>Web Design</p>
-                            <p className={styles.content}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                            {/* <p className={styles.head}>Web Design</p>
+                            <p className={styles.content}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p> */}
                         </div>
                     </div>
 
                     <div className="col-md-4">
                         <div className={styles.box}>
                             <img src={logo2} alt=""/>
-                            <p className={styles.head}>Web Design</p>
-                            <p className={styles.content}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                            {/* <p className={styles.head}>Web Design</p>
+                            <p className={styles.content}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p> */}
                         </div>
                     </div>
 
                     <div className="col-md-4">
                         <div className={styles.box}>
                             <img src={logo3} alt=""/>
-                            <p className={styles.head}>Web Design</p>
-                            <p className={styles.content}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                            {/* <p className={styles.head}>Web Design</p>
+                            <p className={styles.content}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p> */}
                         </div>
                     </div>
 

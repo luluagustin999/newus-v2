@@ -1,13 +1,13 @@
 import React from "react";
 import Banner from '../../components/Banner';
-import ChoosingUs from "../../components/ChoosingUs";
-import ServicesHome from "../../components/ServicesHome";
+// import ChoosingUs from "../../components/ChoosingUs";
 // import CaseStudy from "../../components/CaseStudy";
 import Real from "../../components/Real";
 import Footer from "../../components/Footer";
-import AboutUsHome from "../../components/AboutUsHome";
 import Testimonial from "../../components/Testimonial";
 import BlogHome from "../../components/BlogHome";
+import OurServiceHome from "../../components/OurServiceHome";
+import OurProjectHome from "../../components/OurProjectHome";
 
 
 const Home = () => {
@@ -18,19 +18,19 @@ const Home = () => {
         <Banner subHeading='Home /About Us' />
       </section>
 
-      {/* About Us Section */}
-      <section>
-        <AboutUsHome />
-      </section>
-
-      {/* Why Choosing Us Section  */}
+      {/* Why Choosing Us Section 
       <section>
         <ChoosingUs />
       </section>
       
-      {/* Services Section  */}
+      {/* Our Project Section  */}
       <section>
-        <ServicesHome />
+        <OurProjectHome />
+      </section> 
+      
+      {/* Our Services Section  */}
+      <section>
+        <OurServiceHome />
       </section>
 
       {/* Case Study Section 
