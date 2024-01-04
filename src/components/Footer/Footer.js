@@ -16,7 +16,7 @@ const Footer = () =>{
             <div className={styles.imgbox}>
                     <div className="row">
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
-                        <img src={logo} alt="" style={{marginLeft:'100px', marginTop:'100px'}}/>
+                        <img src={logo} alt="" style={{width:'80%', margin:' 40px 0 0 100px'}}/>
                         </div>
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
@@ -25,7 +25,7 @@ const Footer = () =>{
                             <p className={styles.text} style={{marginLeft:'300px', marginTop:'20px'}}>newustech@gmail.com</p>
                         </div>
                         <div className={`col-lg-3 col-sm-6 ${styles.social_logo}`}>
-                                <img src={fb} alt="fb" className={styles.img}/>
+                                <img src={fb} alt="fb" className={styles.img} />
                                 <img src={twt} alt="twt" className={styles.img}/>
                                 <img src={linkdin} alt="in" className={styles.img}/>
                                 <img src={ytb} alt="ytb" className={styles.img}/>
@@ -35,7 +35,7 @@ const Footer = () =>{
                                 <img src={rss} alt="rss" className={styles.img}/>
                         </div>
 
-                        <div className="row" style={{borderTop: 'solid 1px #F2F2F2', marginTop:'90px'}}>
+                        <div className="row" style={{borderTop: 'solid 1px #F2F2F2', marginTop:'-40px'}}>
                             <div className="col-md-2" style={{width:'300px'}}>
                                 <p className={styles.bottom}>SERVICE</p>
                             </div>

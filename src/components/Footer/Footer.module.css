@@ -1,5 +1,5 @@
 .imgbox {
-    height: 420px;
+    height: 450px;
     background: url('../../assets/footer.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +16,8 @@
     margin-top: 25px;
 }
 .img{
-    margin-top: 230px;
+    width: 20px;
+    margin-top: 90px;
     margin-right: 33px;
     margin-left: -20px;
 }
