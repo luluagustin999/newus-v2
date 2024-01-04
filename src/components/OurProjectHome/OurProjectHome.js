@@ -20,6 +20,7 @@ const OurProjectHome = () =>{
                                 {/* <img src={logo1} alt=""/> */}
                                 <p className={styles.head}>Siger Berjaya</p>
                                 <p className={styles.content}>Lörem ipsum astrobel sar direlig. Kronde est konfoni med kelig. Terabel pov astrobel sar</p>
+                                <button className={`btn custom_btn ${styles.button}`}>Learn More</button>
                             </div>
                         </div>
                         <div className="col-md-4">
@@ -27,6 +28,7 @@ const OurProjectHome = () =>{
                                 {/* <img src={logo1} alt=""/> */}
                                 <p className={styles.head}>Siger Berjaya</p>
                                 <p className={styles.content}>Lörem ipsum astrobel sar direlig. Kronde est konfoni med kelig. Terabel pov astrobel sar</p>
+                                <button className={`btn custom_btn ${styles.button}`}>Learn More</button>
                             </div>
                         </div>
                         <div className="col-md-4">
@@ -34,6 +36,7 @@ const OurProjectHome = () =>{
                                 {/* <img src={logo1} alt=""/> */}
                                 <p className={styles.head}>Siger Berjaya</p>
                                 <p className={styles.content}>Lörem ipsum astrobel sar direlig. Kronde est konfoni med kelig. Terabel pov astrobel sar</p>
+                                <button className={`btn custom_btn ${styles.button}`}>Learn More</button>
                             </div>
                         </div>
                         <div className="col-md-4">
@@ -41,6 +44,7 @@ const OurProjectHome = () =>{
                                 {/* <img src={logo1} alt=""/> */}
                                 <p className={styles.head}>Siger Berjaya</p>
                                 <p className={styles.content}>Lörem ipsum astrobel sar direlig. Kronde est konfoni med kelig. Terabel pov astrobel sar</p>
+                                <button className={`btn custom_btn ${styles.button}`}>Learn More</button>
                             </div>
                         </div>
                         <div className="col-md-4">
@@ -48,6 +52,7 @@ const OurProjectHome = () =>{
                                 {/* <img src={logo1} alt=""/> */}
                                 <p className={styles.head}>Siger Berjaya</p>
                                 <p className={styles.content}>Lörem ipsum astrobel sar direlig. Kronde est konfoni med kelig. Terabel pov astrobel sar</p>
+                                <button className={`btn custom_btn ${styles.button}`}>Learn More</button>
                             </div>
                         </div>
                         <div className="col-md-4">
@@ -55,6 +60,7 @@ const OurProjectHome = () =>{
                                 {/* <img src={logo1} alt=""/> */}
                                 <p className={styles.head}>Siger Berjaya</p>
                                 <p className={styles.content}>Lörem ipsum astrobel sar direlig. Kronde est konfoni med kelig. Terabel pov astrobel sar</p>
+                                <button className={`btn custom_btn ${styles.button}`}>Learn More</button>
                             </div>
                         </div>
                         </div>

@@ -8,6 +8,7 @@ import Testimonial from "../../components/Testimonial";
 import BlogHome from "../../components/BlogHome";
 import OurServiceHome from "../../components/OurServiceHome";
 import OurProjectHome from "../../components/OurProjectHome";
+import ClientHome from "../../components/Client";
 
 
 const Home = () => {
@@ -23,6 +24,11 @@ const Home = () => {
         <ChoosingUs />
       </section>
       
+      {/* Client Section  */}
+      <section>
+        <ClientHome />
+      </section> 
+
       {/* Our Project Section  */}
       <section>
         <OurProjectHome />
@@ -32,11 +38,6 @@ const Home = () => {
       <section>
         <OurServiceHome />
       </section>
-
-      {/* Case Study Section 
-      <section>
-        <CaseStudy />
-      </section> */}
 
       {/* Blog Home Section  */}
       <section>
