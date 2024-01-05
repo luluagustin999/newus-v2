@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 import styles from './BlogHome.module.css';
 import logo1 from '/Users/User/newus-v2/src/assets/blog/bloghome.svg';
 // import logo2 from '/Users/User/newus-v2/src/assets/blog/bloghome.svg';

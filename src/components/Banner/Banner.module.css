@@ -1,6 +1,6 @@
 
  .imgbox {
-    height: 94vh;
+    height: 110vh;
     background: url('../../assets/background.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,6 +29,7 @@
 }
 .btn{
     margin-top: 10px;
+    text-align: center;
     margin-left: 285px;
     width: 160px;
     height: 52px;

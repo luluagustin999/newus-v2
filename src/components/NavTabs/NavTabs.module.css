@@ -1,0 +1,25 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 10px;
+    color: white;
+  }
+
+  .logo {
+    max-width: 100px; /* Sesuaikan dengan ukuran maksimum gambar logo Anda */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-icon {
+    
+    width: 30px !important; /* Sesuaikan dengan ukuran maksimum ikon navbar Anda */
+    text-align: center !important;
+  }
+  

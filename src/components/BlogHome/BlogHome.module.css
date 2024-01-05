@@ -31,6 +31,7 @@
     font-weight: 400;
     text-align: left;
     width: 300px;
+    margin-bottom: 50px !important;
 
 }
 .btn{
@@ -39,7 +40,7 @@
     font-size: 14px;
     background-color: #1E4D98 !important;
     border-radius: 10px !important;
-    margin-top: 70px !important;
+    margin-top: 60px !important;
 }
 .contain{
     margin-top: 100px; 

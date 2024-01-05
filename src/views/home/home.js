@@ -1,7 +1,5 @@
 import React from "react";
 import Banner from '../../components/Banner';
-// import ChoosingUs from "../../components/ChoosingUs";
-// import CaseStudy from "../../components/CaseStudy";
 import Real from "../../components/Real";
 import Footer from "../../components/Footer";
 import Testimonial from "../../components/Testimonial";
@@ -9,6 +7,7 @@ import BlogHome from "../../components/BlogHome";
 import OurServiceHome from "../../components/OurServiceHome";
 import OurProjectHome from "../../components/OurProjectHome";
 import ClientHome from "../../components/Client";
+import NavTabs from "../../components/NavTabs";
 
 
 const Home = () => {
@@ -24,6 +23,11 @@ const Home = () => {
         <ChoosingUs />
       </section>
       
+       {/* Client Section  */}
+      <section>
+        <NavTabs />
+      </section> 
+
       {/* Client Section  */}
       <section>
         <ClientHome />
